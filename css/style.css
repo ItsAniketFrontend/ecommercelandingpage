@@ -1,0 +1,615 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html{
+    background: none!important;
+}
+
+body{
+    background-color: #1E2029!important;
+    overflow-x: hidden;
+    touch-action: pan-y !important;
+    -webkit-overflow-scrolling: auto; 
+}
+
+/* Start Of Desktop View */
+
+/* Logo Area Starts Here*/
+#logo{
+    width: 280px;
+    height: 60.727px;
+    flex-shrink: 0;
+}
+
+#logobutton{
+    border-radius: 2.862px;
+    background: linear-gradient(90deg, #BC4D82 0%, #B86342 100%);
+    color:white;
+    font-size: 22px;
+    width:310px;
+    font-family: "DM Sans";
+    font-weight: 500;
+    padding: 11.446px 22.713px 11.498px 22.893px;
+}
+
+/* Logo Area Ends Here */
+
+/* Heading Area Starts Here*/
+
+#heading-area{
+    margin-top:80px;
+}
+
+#head1{
+    color: #DFDFDF;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px; 
+}
+
+#head1a{
+    background-image: linear-gradient(93deg, #122B6F -8.3%, #E64676 55.97%, #FCDE26 127.1%), linear-gradient(90deg, #971D6D 0%, #8F3A18 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+#head2{
+    color: #F0F0F3;
+    text-align: justify;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    width:490px;
+    line-height: 25px; /* 138.889% */
+}
+
+#head2a{
+    color: #C6C6C6;
+    text-align: justify;
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    width:490px;
+    line-height: 20px; /* 125% */
+}
+
+#head3{
+    height: 400px;
+    width: 450px;
+    margin-left:-20px;
+}
+
+#head3a{
+    border:3px white solid;
+    padding-bottom:10px;
+}
+
+#logobutton2{
+    color: #FFF;
+    padding:10px;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 27.471px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 2.862px;
+    background: linear-gradient(93deg, #122B6F -8.3%, #E64676 55.97%, #FCDE26 127.1%), linear-gradient(90deg, #971D6D 0%, #8F3A18 100%);
+}
+
+/* Heading Area Ends Here */
+
+/* Sliding Logo Area Starts Here */
+
+#sliding-logo-area{
+    background: rgba(184, 184, 184, 0.05);
+    margin-top: 80px;
+    padding-bottom:20px;
+    padding-top: 20px;
+}
+
+@media (min-width: 767px){
+    .slidinglogo{
+        margin-bottom:15px;
+    }
+}
+#sliding-cards-area{
+    margin-top: 45px;
+    margin-bottom: 30px;
+}
+#borderline{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.41);;
+}
+
+
+#head5{
+    color: rgba(244, 244, 244, 0.42);
+    font-family: "DM Sans";
+    text-align: left;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px; /* 166.667% */
+}
+
+#hrline{
+   padding-top:25px;
+}
+
+.borderbox{
+    border: 1.331px solid #585858;
+    background: linear-gradient(105deg, rgba(217, 217, 217, 0.10) -0.42%, rgba(217, 217, 217, 0.00) 93.83%);
+    box-shadow: -19.959px 28.608px 71.72px 0px rgba(0, 0, 0, 0.10);
+    width: 209.572px;
+    animation: slide 15s linear infinite;
+    height: 109.11px;
+    flex-shrink: 0;
+}
+
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+.borderboxs{
+    border: 1.331px solid #585858;
+    background: linear-gradient(105deg, rgba(217, 217, 217, 0.10) -0.42%, rgba(217, 217, 217, 0.00) 93.83%);
+    box-shadow: -19.959px 28.608px 71.72px 0px rgba(0, 0, 0, 0.10);
+    width: 209.572px;
+    animation: slides 15s linear infinite;
+    height: 109.11px;
+    flex-shrink: 0;
+}
+@keyframes slides {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+
+/* Sliding Logo Area Ends Here  */
+
+/* Sliding Cards Area Starts Here */
+
+#head9{
+    color: #EBEBEC;
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px; /* 125% */
+}
+
+
+  .owl-carousel {
+    position: relative;
+    margin-top: 30px;
+  }
+  .owl-carousel .owl-item img {
+    display: block;
+    width: 128px!important;
+    height: 128px!important;
+}
+  .owl-nav {
+    position: relative;
+    top:0;
+    right: 0px;
+  }
+  .uk-card-primary {
+    border-radius: 8px;
+    border: 1px solid #E93AE2;
+    background: none!important;
+    color: #fff;
+    box-shadow: 0 5px 15px rgba(0,0,0,.08);
+  }
+  .uk-card > :last-child {
+    margin-top:0;
+    margin-bottom: 10px
+  }
+
+  .owl-dots {
+    margin-top: 30px;
+  }
+  .uk-card-title {
+    padding-bottom: 20px
+  }
+
+.uk-section {
+    margin-top: -40px;
+    padding-top: 0px!important;
+    padding-bottom: 0px!important;
+}
+.owl-theme .owl-dots {
+    text-align: center;
+    display: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.owl-theme .owl-nav [class*='owl-'] {
+    color: #ffffff!important;
+    position: relative!important;
+    font-size: 24px!important;
+    margin: 5px!important;
+    padding: px 8px!important;
+    background: none!important;
+    display: inline-block!important;
+    cursor: pointer!important;
+    border-radius: 25px!important;
+    border: 1px solid white;
+    right: -43%!important;
+}
+
+.uk-icon>* {
+    transform: translate(0,0);
+    margin-top: -8px!important;
+}
+
+/* Sliding Cards Area Ends Here */
+
+/* Cards Section Starts Here */
+
+#head6a{
+    color: #DFDFDF;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700; /* 130% */
+    background-image: linear-gradient(93deg, #122B6F -8.3%, #E64676 55.97%, #FCDE26 127.1%), linear-gradient(90deg, #971D6D 0%, #8F3A18 100%);
+    /* Set text color to transparent */
+    -webkit-text-fill-color: transparent;
+     /* Clip the background to the text */
+    -webkit-background-clip: text;
+}
+
+#head6{
+    color: #D9D9D9;
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px; 
+}
+
+#para{
+    color: #C6C6C6;
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 125% */
+}
+#paddingbox{
+    padding:0 160px;
+}
+#circleimage{
+    border-radius: 50%;
+    height:300px;
+    width:300px;
+    box-shadow: -4px 4px 13px 0px rgba(0, 0, 0, 0.59), -16px 17px 23px 0px rgba(0, 0, 0, 0.51), -35px 37px 31px 0px rgba(0, 0, 0, 0.30), -63px 66px 37px 0px rgba(0, 0, 0, 0.09), -98px 104px 40px 0px rgba(0, 0, 0, 0.01);
+}
+.para1{
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20.525px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 46.648px; 
+    border-bottom: 1px solid rgba(255, 255, 255, 0.30);
+}
+
+
+#logobutton3{
+    color: #FFF;
+    padding:10px;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 27.471px;
+    font-style: normal;
+    font-weight: 600;
+    width:50%;
+    line-height: normal;
+    border-radius: 2.862px;
+    background: linear-gradient(93deg, #122B6F -8.3%, #E64676 55.97%, #FCDE26 127.1%), linear-gradient(90deg, #971D6D 0%, #8F3A18 100%);
+}
+
+/* Cards Section Ends Here */
+
+/* Flow Area Starts Here */
+
+#flowbtn{
+    background: #FF8A5B;
+    color: #FFF;
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    padding:0 10px;
+    line-height: 35px; /* 233.333% */
+}
+
+#head7{
+    color: #FFFDFD;
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px; 
+}
+#para2{
+    color: #EEE;
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; 
+}
+
+#paddingbox2{
+    padding:0 250px;
+}
+
+#flow-area .card{
+    background: rgba(255, 255, 255, 0.07);
+}
+
+#flow-area .card-title{
+    color: #BFC1FA;
+    font-family: "DM Sans";
+    font-size: 20.525px;
+    font-style: normal;
+    font-weight: 700;
+}
+#flow-area .card-text{
+    color: #F7F7F7;
+    font-family: "DM Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: -5px;
+    line-height: 25px; 
+}
+
+/* Flow Area Ends Here */
+
+/* Contact Starts Here */
+
+.contact{
+    background: #1E2029;
+    overflow: hidden;
+}
+
+.contact h2{
+    font-family: DM Sans;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.contact input{
+    width: 100%;
+    font-family: DM Sans;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF !important;
+    background: transparent;
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.contact label{
+    font-family: DM Sans;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.contact button{
+    background: linear-gradient(90deg, #971D6D 0%, #8F3A18 100%);
+    font-family: DM Sans;
+    font-size: 22px;
+    border: none;
+    font-weight: 500;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 7px 50px;
+}
+
+.contact textarea{
+    border: 1px solid #FFFFFF;
+    background: transparent;
+    border-radius: 20px;
+}
+
+.mid-foot{
+    min-height: 137px;
+    background: #1E2029;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.base-foot{
+    background: #EAF8FF;
+}
+
+.base-foot p{
+    padding: 10px 0px;
+    color: #000;
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+/* Contact Ends Here */
+
+/* End Of Desktop View */
+
+
+/* Mobile View Starts Here */
+
+@media (max-width:567px){
+
+    /* Logo Area Starts Here  */
+    #logo{
+        width: 150px;
+        height: 42.727px;
+        flex-shrink: 0;
+        padding-left:0px;
+    }
+    #logobutton{
+        font-size: 13px;
+        width:210px;
+    }
+
+    /* Logo Area Ends Here  */
+
+    /* Heading Area Starts Here */
+
+    #head1a{
+        color: #DFDFDF;
+        font-family: Poppins;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 52px; /* 130% */
+        background-image: linear-gradient(93deg, #122B6F -8.3%, #E64676 55.97%, #FCDE26 127.1%), linear-gradient(90deg, #971D6D 0%, #8F3A18 100%);
+        /* Set text color to transparent */
+        -webkit-text-fill-color: transparent;
+         /* Clip the background to the text */
+        -webkit-background-clip: text;
+    }
+    #heading-area{
+        margin-top:30px;
+    }
+    #head1{
+        color: #DFDFDF;
+        font-family: Poppins;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px; 
+        margin-bottom:20px;
+    }
+
+    #head2{
+        width:100%;
+        
+    }
+    #head2a{
+        width:100%;
+    }
+
+    #logobutton2{
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    #head3{
+        height: 350px;
+        width: 100%;
+        margin-left:0px;
+    }
+    #head3a{
+        border:none;
+        padding-bottom:0px;
+    }
+
+    /* Heading Area Ends Here */
+
+    /* Sliding Logo Area Starts Here */
+
+    #head5{
+        font-size: 22px;
+        text-align: center;
+    }
+    #hrline{
+    padding-top:20px;
+    }
+
+    .borderbox, .borderboxs{
+        animation: none;
+    }
+
+    /* Sliding Logo Area Ends Here */
+
+    /* Sliding Cards Area Starts Here*/
+
+    .owl-theme .owl-nav [class*='owl-'] {
+        right: -30%!important;
+    }
+
+    #head9{
+        font-size: 30px;
+    }
+    /* Sliding Cards Ends Here */
+
+    /* Cards Section Starts Here */
+
+    #paddingbox{
+        padding:12px;
+    }
+
+    #circleimage{
+        border-radius: 50%;
+        height:250px;
+        width:250px;
+    }
+
+    #logobutton3{
+        font-size: 17px;
+        width: 90%;
+        margin-bottom: 20px;
+       }
+
+    /* Cards Section Ends Here */
+
+    /* Flow Area Starts */
+
+    #paddingbox2{
+        padding:10px;
+    }
+    
+    /* Flow Area Ends */
+
+    /* Contact Starts Here */
+   
+    .contact h2{
+        font-size: 36px;
+    }
+
+    /* Contact Ends Here */
+    
+ 
+    
+   
+}
